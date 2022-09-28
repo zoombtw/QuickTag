@@ -1,0 +1,26 @@
+# Artist name for all of the files
+artist = "ARTIST"
+
+# If we should move the finalized file into the configurated folder
+move_into_folder = true
+
+# If we should delete the original untagged file
+delete_original = true
+
+# List of all albums
+[albums]
+
+[albums.EXAMPLE_1]
+# The title of the album
+title = "EXAMPLE_1"
+
+# The folder which contains all of the album's music
+folder = "EXAMPLE_1"
+
+# The cover art of the album, prefixed with the covers directory
+cover = "EXAMPLE_1.png"
+
+[albums.EXAMPLE_2]
+title = "EXAMPLE_2"
+folder = "EXAMPLE_2"
+cover = "EXAMPLE_2.png"
