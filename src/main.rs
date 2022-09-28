@@ -41,7 +41,7 @@ fn main() {
         let raw_cover = std::fs::read(format!("covers/{}", album.cover));
 
         if let Ok(raw_cover) = raw_cover {
-            raw_covers.insert(album.folder, raw_cover);
+            raw_covers.insert(album.title, raw_cover);
         }
         else {
             println!("Could not read cover for album '{}'", album.title);
